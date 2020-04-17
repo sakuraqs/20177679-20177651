@@ -1,7 +1,6 @@
 # 20177679-20177651
 软工作业05
 ### 目录说明
-- **所有文件都在WebContent文件里面
 - **css文件夹：**
     - demo1.css：自己设定的css
     - metroStyle.css：ztree自带的css样式

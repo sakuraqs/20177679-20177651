@@ -1,0 +1,113 @@
+.ztree li a {
+    height: 18px;
+    cursor: pointer;
+    border: solid 0px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.555);
+}
+.ztree li{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.ztree li a.curSelectedNode {
+    background-color: rgba(235, 164, 44, 0.7);
+}
+.treed{
+    float: left;
+    margin-left: 1.9%;
+    margin-top: 2.3%;
+}
+.onetree{
+    float: left;
+    margin-left: 25%;
+    margin-top: 2.3%;
+}
+.twotree{
+    float: left;
+    margin-left: 13%;
+    margin-top: 2.3%;
+}
+.threetree{
+    float: left;
+    margin-left: 5%;
+    margin-top: 2.3%;
+}
+#regionZTree{
+    height: 490px;
+}
+#kuang{
+    position: fixed;：
+    top:0px;
+    left: 2.5%;
+    width: 73.1%;
+    height: 100%;
+    opacity: 0.9;
+    border:1px solid lightgray;
+    z-index: -2;
+    background:url(jzs1.png);
+    background-size: cover;
+}
+#texts{
+    padding: 20px;
+    border-radius: 20px;
+    position: fixed;
+    width: 16.4%;
+    height: 72%;
+    top: 4%;
+    right: 2.5%;
+    font-size: 13px;
+}
+#butt{
+    position: fixed;
+    width: 19%;
+    height: 7%;
+    bottom: 6.5%;
+    right: 2.6%;
+    font-family: "宋体";
+    font-size: 20px;
+}
+button:hover{
+    color:rgb(223, 156, 50);
+    background-color:white;
+}
+#shuaxin{
+    opacity: 0.5;
+    width: 2%;
+    position: fixed;
+    right:3.6%;
+    bottom:19%; 
+}
+#shuaxin:hover{
+    cursor: pointer;
+}
+#stxt{
+    border: none;
+    font-size: 15px;
+    margin-top: 13px;
+    margin-left: 10px;
+    width: 90px;
+}
+button{
+    display: inline-block;
+    border:solid 0px;
+    outline:none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color:white;
+    background-color: rgb(72, 209, 204);
+    border-radius: 20px;
+}
+textarea{
+    /* background:transparent; */
+    opacity: 0.5;
+    border:1px solid lightgray;
+    box-shadow:5px 5px 5px rgb(148, 148, 148);
+    z-index: -2;
+}
+body{
+    color: #000;
+    background-color:rgb(144,238,144);
+    background-size: 100%;
+}
